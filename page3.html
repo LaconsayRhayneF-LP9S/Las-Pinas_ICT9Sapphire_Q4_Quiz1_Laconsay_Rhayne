@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Photo Gallery</title>
+	<style type="text/css">
+		body{
+			font-family:"Nanum Gothic Coding", monospace;
+			font-weight: bold;
+			letter-spacing: 3px;
+			background-image: url("blurred_background.jpg");
+			background-repeat: no-repeat;
+			background-position: bottom-right;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		#logo{
+			height: 50px;
+			width: 50px;
+		}
+		#links{
+			margin-top: 20px;
+		}
+		.Nav{
+			background-color: #0c0c16;
+			overflow: hidden;
+			width: auto;
+		}
+		.Nav a{
+			float: left;
+			color: #3b4043;
+			text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+			font-family:"Nanum Gothic Coding", monospace;
+			padding: 20px 20px;
+		}
+		.Nav a:hover{
+			color: #b56932;
+		}
+		.Nav a:active{
+			color: #3b4043;
+		}
+		pre{
+			border: solid black;
+			border-width: 5px 5px 5px 5px;
+			background: none;
+			text-align: center;
+			font-size: 20px;
+			font-family: Agency FB;
+		}
+		.intro{
+			background-color: #6880A7;
+			text-align: center;
+			font-family:"Nanum Gothic Coding", monospace;
+			font-size: 10px;	
+			color: #0c0c16;
+		}
+		.container{
+			display: flex;
+		}
+		.items{
+			background-color: #6880A7;
+			width: 350px;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			padding: 10px;
+			font-size: 12px;
+			color: #0c0c16;
+		}
+		h3{
+			text-align: center;
+			font-size: 20px;
+			color: #0c0c16;
+		}
+		.image{
+			background-color: #6880A7;
+			width: 350px;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="Nav">
+		<a href="https://github.com/LaconsayRhayneF-LP9S"><img src="logo.png" id="logo"></a>
+		<a href="./mainpage.html" id="links">Main Page</a>
+		<a href="./page2.html" id="links">First Quarter</a>
+		<a href="./page3.html" id="links">Second Quarter</a>
+		<a href="./page4.html" id="links">Third Quarter</a>
+	</div>
+<pre>
+	<h1 id="photo">⋆｡ﾟ☁︎✈︎ P  H  O  T  O   ⋆   G  A  L  L  E  R  Y🌤</h1>
+</pre>
+<div class="intro">
+<table>
+<tr>
+	<h2>The Philippines, an archipelago consisting of more than 7,000 islands and islets, is home to a multitude of <em>marvelous sand beaches, rugged yet breathtaking volcanic mountain views, rich farmlands, and stunning coral reefs.</em> From its colorful public transportation, to its unique cuisine, vibrant festivals that showcase its colorful culture, and friendly locals, <em>there really is no place like the Philippines. </em></h2>
+</tr>
+</table>
+</div>
+<br>
+<div class="container">
+	<div class="items">
+		<h3>Burot Beach</h3>
+		<ul>
+			<li>Found in Calatagan, Batangas, Burot Beach is one of the many coves that lace the western coast of Punta de Santiago.</li>
+			<li>A picturesque beach that features more baige-like than white sand, clear waters, and a tranquil atmosphere. Perfect for relaxation and beach activities.</li>
+		</ul>
+	</div>
+	<div class="image">
+		<img src="burot_beach.jpg" height="250" width="350">
+	</div>
+	<div class="items">
+		<h3>Hapao Rice Terraces</h3>
+		<ul>
+			<li>Located in the municipality of Hungduan, this is one of the five, as well as the longest, sites in Ifugao included in the UNESCO World Heritage list under cultural landscape category.</li>
+			<li>A majestic sight with its cascading layers of rice paddies, nestled amidst the mountains of the Cordillera region in the Philippines.</li>
+		</ul>
+	</div>
+	<div class="image">
+		<img src="hapao.jpg" height="250" width="350">
+	</div>
+</div>
+<br>
+<div class="container">
+		<div class="image">
+		<img src="mt_pinatubo.jpg" height="250" width="350">
+	</div>
+	<div class="items">
+		<h3>Mt. Pinatubo</h3>
+		<ul>
+			<li>An active stratovolcano in the Zambales Mountains, located on the tripoint boundary of the Philippine provinces of Zambales, Tarlac, and Pampanga, all in Central Luzon on the northern island of Luzon.</li>
+			<li>It is known for its devastating eruption in June 15, 1991, which caused widespread destruction and had significant impacts on the environment and climate.</li>
+		</ul>
+	</div>
+	<div class="image">
+		<img src="apo.jpg" height="250" width="350">
+	</div>
+	<div class="items">
+		<h3>Apo Reef</h3>
+		<ul>
+			<li>The second largest contiguous coral reef system in the world,  right after the Great Barrier Reef of Australia, and the largest in the Philippines.</li>
+			<li>Apo Reef, located off the coast of Occidental Mindoro and in the Coral Triangle, consisting of two isolated coral reefs separated by a 30-meter deep channel, is home to clear waters with an astounding biodiversity of marine life.</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

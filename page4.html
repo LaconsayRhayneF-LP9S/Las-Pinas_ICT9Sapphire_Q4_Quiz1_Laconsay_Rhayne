@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cedarville+Cursive&display=swap" rel="stylesheet">
+	<title>Featured Artist</title>
+</head>
+	<style>
+		body{
+			font-family:"Nanum Gothic Coding", monospace;
+			letter-spacing: 3px;
+			background-color: black;
+		}
+			#logo{
+				height: 50px;
+				width: 50px;
+			}
+			#links{
+				margin-top: 20px;
+			}
+		.Nav{
+			background-color: #0c0c16;
+			overflow: hidden;
+			width: auto;
+		}
+		.Nav a{
+			float: left;
+			color: #3b4043;
+			text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+			font-family:"Nanum Gothic Coding", monospace;
+			padding: 20px 20px;
+		}
+		.Nav a:hover{
+			color: #b56932;
+		}
+		.Nav a:active{
+			color: #3b4043;
+		}
+		#Logo{
+			float: 	left;
+			font-family: Allura;
+			color: #5A77A7;
+			letter-spacing: 9px;
+			position: absolute;
+			top: 105px;
+		}
+		.nav{
+			background-color: black;
+			overflow: hidden;
+			width: 100vw;
+		}
+		.nav a{
+			float: right;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			font-size: 18px;
+			font-family: Monospace;
+			padding: 20px 20px;
+		}
+		.nav a:hover{
+			color: #b56932;
+		}
+		.nav a:active{
+			color: white;
+		}
+		.bgimg{
+			background-image: url('1.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 670px;
+			width: 100vw;
+		}
+		#Quote{
+			color: #b56932;
+			font-family: Monospace;
+			letter-spacing: 6px;
+			position: absolute;
+			padding-top: 400px;
+			left: 2;
+		}
+		#QuoteRef{
+			color: #5A77A7;
+			font-family: Allura;
+			letter-spacing: 7px;
+			position: absolute;
+			padding-top: 425px;
+			left: 2;
+		}
+		.about{
+			background-color: #0e0e0e;
+		}
+		#Photo{
+			float: right;
+			height: 400px;
+			width: 410px;
+		}
+		#PhotoRef{
+			color: white;
+			font-size: 10px;
+			margin-left: 815px;
+		}
+		#ArtistName{
+			color: #b56932;
+			text-align: center;
+		}
+		#AboutText{
+			color: white;
+		}
+		.Info{
+			color: white;
+		}
+		.Info a{
+			color: #5A77A7;
+			text-decoration: none;
+		}
+		.Info a:hover{
+			color: #b56932;
+		}
+		.topsongs{
+			background-color: #0e0e0e;
+		}
+		.topsongs a{
+			color: #b56932;
+			text-decoration: none;
+			font-family: Monospace;
+		}
+		.topsongs a:hover{
+			color: #5A77A7;
+		}
+		#Songs{
+			color: #5A77A7;
+			margin-left: 300px;
+			padding-top: 10px;
+		}
+		#List{
+			color: white;
+			font-size: 15px;
+			float: right;
+		}
+		#SP{
+			margin-left: 100px;
+			height: 700px;
+			width: 610px;
+		}
+		.Socials{
+			background-color: #b56932;
+			color: #0e0e0e;
+		}
+		#Follow{
+			color: #0e0e0e;
+			text-align: center;
+			letter-spacing: 7px;
+		}
+		hr{
+			background-color: #0e0e0e;
+			height: 2px;
+			border-width: 0;
+		}
+		#Instagram{
+			height: 50px;
+			width: 50px;
+			margin-left: 380px;
+		}
+		#Twitter{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#YouTube{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#Facebook{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#Tumblr{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#Spotify{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#MTSK{
+			color: #0e0e0e;
+			font-size: 10px;
+			float: left;
+			letter-spacing: 2px;
+		}
+		#RFL{
+			color: #0e0e0e;
+			font-size: 10px;
+			float: right;
+			letter-spacing: 2px;
+		}
+	</style>
+<body>
+	<div class="Nav">
+		<a href="https://github.com/LaconsayRhayneF-LP9S"><img src="logo.png" id="logo"></a>
+		<a href="./mainpage.html" id="links">Main Page</a>
+		<a href="./page2.html" id="links">First Quarter</a>
+		<a href="./page3.html" id="links">Second Quarter</a>
+		<a href="./page4.html" id="links">Third Quarter</a>
+	</div>
+<br>
+	<div class="nav">
+		<h1 id="Logo">MITSKI</h1>
+		<a href="./page5.html">GALLERY</a>
+		<a href="https://merch.mitski.com/">STORE</a>
+		<a href="./page4.html">HOME</a>
+	</div>
+<br>
+	<div class="bgimg">
+		<h3 id="Quote">"Nothing in the world belongs to me,
+			<br>
+		But my love mine, all mine, all mine."</h3>
+			<br>
+		<p id="QuoteRef">-Mitski, My Love All Mine</p>
+	</div>
+
+	<div style="padding-top: 30px; padding-bottom: 50px; padding-left: 10px; padding-right: 10px;" class="about">
+		<img src="2.png" id="Photo">
+			<br>
+		<h1 id="ArtistName">Mitsuki "Mitski" Miyawaki</h1>
+			<p id="AboutText">Born in Sendai, Japan to an American father and Japanese mother on September 24, 1990, Mitsuki Miyawaki, born as Mitsuki Laycock, is a 33 year old Japanese-American indie rock singer/songwriter who has been praised for her raw and powerful lyrics. Her music often explores themes of loneliness, heartache, and identity.</p>
+			<br>
+			<p class="Info">She self-released her first two albums, <a href="https://www.youtube.com/watch?v=Bfurc6KcMwk&list=OLAK5uy_kWAkHEIPVNNHrjNwnnIEdhDNtjdl0uxNk&index=1">Lush</a> and <a href="https://www.youtube.com/watch?v=ohxu-pA7o64&list=OLAK5uy_lYKzBN83tyhxZAEncULL-A5XYO_6z2cwg&index=1">Retired from Sad, New Career in Business</a>, as her senior project while studying studio composition at Purchase College's Conservatory of Music. Her third studio album, <a href="https://www.youtube.com/watch?v=AOCRa7xbO6c&list=OLAK5uy_m1iQ_rKlmsi_IDbG2Qr8FNO97ClnVrgVI&index=2">Bury Me at Makeout Creek</a>, saw her picking up a guitar and was released in 2014 on the label Double Double Whammy.</p>
+
+			<p class="Info">Mitski signed with Dead Oceans in 2015 and released <a href="https://www.youtube.com/watch?v=EJ0O2vDT0VE&list=OLAK5uy_lTAc_QwnPLntKJx_2W69T41iC2ydk3Lyk">Puberty 2</a>, <a href="https://www.youtube.com/watch?v=3zdFZJf-B90&list=OLAK5uy_kPXuJ0JHp9Vg9Zi-hGZIgpSq0y0i9Q0ow">Be the Cowboy</a> and <a href="https://www.youtube.com/watch?v=GOeAaxvidPI&list=OLAK5uy_kKka9ZR4wwfc9865kPpaf05v-ahNUkcJI">Laurel Hell</a>, the last of which made the top ten in several countries. In 2022, The Guardian dubbed her the "best young songwriter" in the United States. That same year, she co-wrote <a href="https://youtu.be/STRjuwjL8g0?si=SO4HyTmh-HUoKeCB">This Is a Life</a> for the film Everything Everywhere All at Once, which earned her an Academy Award nomination for Best Original Song. Her seventh studio album, <a href="https://www.youtube.com/watch?v=cRjOLe9FnB0&list=PLxA687tYuMWitQjXH2_yqHh8rMqCLXcs_&index=1">The Land Is Inhospitable and So Are We</a>, was released in 2023.</p>
+
+			<p class="Info"></p>
+			<p id="PhotoRef">Strides Towards the Mainstream: Mitski. Photographed by Ebru Yildiz.</p>
+	</div>
+
+	<div style="padding-top: 1px; padding-bottom: 200px; padding-left: 10px; padding-right: 10px;" class="topsongs"> 	
+		<h1 id="Songs">Mitski Top Songs</h1>
+			<ol id="List">
+				<li id="Song1">
+					<a href="https://open.spotify.com/track/3vkCueOmm7xQDoJ17W1Pm3?si=902b109975204dd1" style="padding-left: 5px;"><img src="Song1.png" style="height: 130px; width: 130px; padding-top: 10px; padding-right: 30px;">My Love All Mine</a>
+				</li>
+			<br>
+				<li id="Song2">
+					<a href="https://open.spotify.com/track/3jjsRKEsF42ccXf8kWR3nu?si=68a243f160fd4088" style="padding-left: 5px;"><img src="Song2.png" style="height: 130px; width: 130px; padding-top: 10px; padding-right: 30px;">Washing Machine Heart</a>
+				</li>
+			<br>
+				<li id="Song3">
+					<a href="https://open.spotify.com/track/2Co0IjcLTSHMtodwD4gzfg?si=4125ed9b8af34ebf" style="padding-left: 5px;"><img src="Song3.png" style="height: 130px; width: 130px; padding-top: 10px; padding-right: 30px;">I Bet on Losing Dogs</a>
+				</li>
+			<br>
+				<li id="Song4">
+					<a href="https://open.spotify.com/track/3sslYZcFKtUvIEWN9lADgr?si=83af210f1d3943d6" style="padding-left: 5px;"><img src="Song4.png" style="height: 130px; width: 130px; padding-top: 10px; padding-right: 30px;">First Love/Last Spring</a>
+				</li>
+			<br>
+				<li id="Song5">
+					<a href="https://open.spotify.com/track/5411TEB6tlzvuF5A4oyldr?si=28eb6a5c8864462a" style="padding-left: 5px;"><img src="Song4.png" style="height: 130px; width: 130px; padding-top: 10px; padding-right: 30px;">Francis Forever</a>
+				</li>
+			</ol>
+		<img src="SongsLogo.png" id="SP">
+	</div>
+
+	<div style="padding-top: 30px; padding-bottom: 50px; padding-left: 10px; padding-right: 10px;" class="Socials">
+		<h1 id="Follow">Follow Mitski on Social Media</h1>
+		<hr>
+			<br>
+		<a href="https://www.instagram.com/mitskileaks/"><img src="M_Instragram.png" id="Instagram"></a>
+		<a href="https://twitter.com/mitskileaks"><img src="M_Twitter.png" id="Twitter"></a>
+		<a href="https://www.youtube.com/@mitskileaks"><img src="M_YouTube.png" id="YouTube"></a>
+		<a href="https://www.facebook.com/MitskiLeaks/"><img src="M_Facebook.png" id="Facebook"></a>
+		<a href="https://mitskileaks.tumblr.com/"><img src="M_Tumblr.png" id="Tumblr"></a>
+		<a href="https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK?si=o6KUK-0HSNuyKb2LjWLyzw"><img src="M_Spotify.png" id="Spotify"></a>
+			<br>
+			<p id="MTSK">2024, Mitski.</p>
+			<p id="RFL">Site by Rhayne Francisco Laconsay.</p>
+	</div>
+</body>
+</html>

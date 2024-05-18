@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cedarville+Cursive&display=swap" rel="stylesheet">
+	<title>Featured Artist</title>
+</head>
+	<style>
+		body{
+			font-family:"Nanum Gothic Coding", monospace;
+			letter-spacing: 3px;
+			background-color: black;
+		}
+			#logo{
+				height: 50px;
+				width: 50px;
+			}
+			#links{
+				margin-top: 20px;
+			}
+		.Nav{
+			background-color: #0c0c16;
+			overflow: hidden;
+			width: auto;
+		}
+		.Nav a{
+			float: left;
+			color: #3b4043;
+			text-align: center;
+			text-decoration: none;
+			font-size: 12px;
+			font-family:"Nanum Gothic Coding", monospace;
+			padding: 20px 20px;
+		}
+		.Nav a:hover{
+			color: #b56932;
+		}
+		.Nav a:active{
+			color: #3b4043;
+		}
+		#Logo{
+			float: 	left;
+			font-family: Allura;
+			color: #5A77A7;
+			letter-spacing: 9px;
+			position: absolute;
+			top: 105px;
+		}
+		.nav{
+			background-color: black;
+			overflow: hidden;
+			width: 100vw;
+		}
+		.nav a{
+			float: right;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			font-size: 18px;
+			font-family: Monospace;
+			padding: 20px 20px;
+		}
+		.nav a:hover{
+			color: #b56932;
+		}
+		.nav a:active{
+			color: white;
+		}
+		.bgimg{
+			background-image: url('1.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 670px;
+			width: 100vw;
+		}
+		#Photos{
+			color: #5A77A7;
+			text-align: center;
+		}
+		#PhotosText{
+			color: #b56932;
+			margin-left: 530px;
+		}
+		.gallery {
+			line-height:0;
+			-webkit-column-count:4;
+			-webkit-column-gap:5px; 
+			-moz-column-count:4;
+			-moz-column-gap:5px;
+			column-count:4;
+			column-gap:5px;
+		}
+		.gallery img {
+			width: 100% !important;
+			height: 70% !important;
+			margin-bottom:5px;
+			filter: grayscale(100%);
+		}
+		.gallery img:hover {
+			filter:none;
+		}
+		#Videos{
+			color: #5A77A7;
+			text-align: center;
+		}
+		#VideosText{
+			color: #5A77A7;
+			margin-left: 530px;
+		}
+		h1{
+			color: #b9d9eb;	
+		}
+		#Video1Text{
+			color: #5A77A7;
+			margin-left: 30px;
+		}
+		#Video1{
+			float: left;	
+		}
+		#Video2Text{
+			color: #5A77A7;
+			margin-left: 375px;
+		}
+		#Video2{
+			margin-left: 330px;
+		}
+		.Socials{
+			background-color: #b56932;
+			color: #0e0e0e;
+		}
+		#Follow{
+			color: #0e0e0e;
+			text-align: center;
+			letter-spacing: 7px;
+		}
+		hr{
+			background-color: #0e0e0e;
+			height: 2px;
+			border-width: 0;
+		}
+		#Instagram{
+			height: 50px;
+			width: 50px;
+			margin-left: 380px;
+		}
+		#Twitter{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#YouTube{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#Facebook{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#Tumblr{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#Spotify{
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+		}
+		#MTSK{
+			color: #0e0e0e;
+			font-size: 10px;
+			float: left;
+			letter-spacing: 2px;
+		}
+		#RFL{
+			color: #0e0e0e;
+			font-size: 10px;
+			float: right;
+			letter-spacing: 2px;
+		}
+	</style>
+<body>
+	<div class="Nav">
+		<a href="https://github.com/LaconsayRhayneF-LP9S"><img src="logo.png" id="logo"></a>
+		<a href="./mainpage.html" id="links">Main Page</a>
+		<a href="./page2.html" id="links">First Quarter</a>
+		<a href="./page3.html" id="links">Second Quarter</a>
+		<a href="./page4.html" id="links">Third Quarter</a>
+	</div>
+<br>
+	<div class="nav">
+		<h1 id="Logo">MITSKI</h1>
+		<a href="./gallery.html">GALLERY</a>
+		<a href="https://merch.mitski.com/">STORE</a>
+		<a href="./page4.html">HOME</a>
+	</div>
+<br>
+	<h1 id="Photos">PHOTOS</h1>
+		<div class="gallery" style="padding-bottom: 30px;">
+			<img src="Gallery1.jpg">
+			<img src="Gallery2.jpg">
+			<img src="Gallery3.jpg">
+			<img src="Gallery4.jpg">
+			<img src="Gallery5.jpg">
+			<img src="Gallery6.jpg">
+			<img src="Gallery7.jpg">
+			<img src="Gallery8.jpg">
+			<img src="Gallery9.jpg">
+			<img src="Gallery10.jpg">
+			<img src="Gallery11.jpg">
+		</div>
+		<a href="https://www.instagram.com/mitskileaks" id="PhotosText">View More Photos</a>
+<br>
+	<div class="Videos" style="padding-bottom: 30px;">
+	<h1 id="Videos">VIDEOS</h1>
+				<table>
+					<tr>
+					<td>
+						<h1 id="Video1Text">Mitski - Washing Machine Heart</h1>
+							<iframe width="440" height="300" src="Mitski_Washing_Machine_Heart.mp4" id="Video1">
+							</iframe>
+					</td>
+					<td>
+						<h1 id="Video2Text">Mitski - Nobody (Official Video)</h1>
+							<iframe width="440" height="300" src="Mitski_Nobody.mp4" id="Video2">
+							</iframe>
+					</td>
+					</tr>
+				</table>
+		<a href="https://www.youtube.com/@mitskileaks" id="VideosText">View More Videos</a>
+	</div>
+	
+	<div style="padding-top: 30px; padding-bottom: 50px; padding-left: 10px; padding-right: 10px;" class="Socials">
+		<h1 id="Follow">Follow Mitski on Social Media</h1>
+		<hr>
+			<br>
+		<a href="https://www.instagram.com/mitskileaks/"><img src="M_Instragram.png" id="Instagram"></a>
+		<a href="https://twitter.com/mitskileaks"><img src="M_Twitter.png" id="Twitter"></a>
+		<a href="https://www.youtube.com/@mitskileaks"><img src="M_YouTube.png" id="YouTube"></a>
+		<a href="https://www.facebook.com/MitskiLeaks/"><img src="M_Facebook.png" id="Facebook"></a>
+		<a href="https://mitskileaks.tumblr.com/"><img src="M_Tumblr.png" id="Tumblr"></a>
+		<a href="https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK?si=o6KUK-0HSNuyKb2LjWLyzw"><img src="M_Spotify.png" id="Spotify"></a>
+			<br>
+			<p id="MTSK">2024, Mitski.</p>
+			<p id="RFL">Site by Rhayne Francisco Laconsay.</p>
+	</div>
+</body>
+</html>
